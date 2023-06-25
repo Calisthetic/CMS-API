@@ -1,0 +1,56 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "v1",
+      "title": "Api"
+    },
+    "paths": {
+      "/todos/{id}": {
+        "get": {
+          "tags": [
+            "Identity"
+          ],
+          "operationId": "Opeartion",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "description": "ID of pet to return",
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "format": "int64"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/ViewModel"
+              }
+            },
+            "400": {
+              "description": "Bad Request",
+              "schema": {
+                "$ref": "#/definitions/ViewModel"
+              }
+            },
+            "409": {
+              "description": "Conflict",
+              "schema": {
+                "$ref": "#/definitions/ViewModel"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
