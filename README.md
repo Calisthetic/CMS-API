@@ -1,47 +1,51 @@
+<!-- Ctrl + Shift + V to preview in VSCode -->
+
 <h1 align="center">CMS API</h1>
 
 ## Architecture overview
 
 ![Architecture overview](./ReadmeImages/Arch.png)
 
-## ERD
+## [ERD](https://dbdiagram.io/d/64970d4102bd1c4a5e01a24c)
 
-![Database diagram](./ReadmeImages/ERD.png)
+![Database diagram](./ReadmeImages/EDR.png)
 
 Документы - категории документов, их поиск
 
 Plans
 
 - [ ] CQRS
-- [ ] Брокер сообщений
+- PUT замена, PATCH изменение
 
 <h3>Info</h3>
 
 - [Architecture](https://learn.microsoft.com/ru-ru/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot)
 
 <details>
-<summary><h3>Learn<h3></summary>
+<summary><h3>Learned<h3></summary>
 
-- [Create JWT](https://youtu.be/UwruwHl3BlU)
-- [Role-Based Auth](https://youtu.be/6sMPvucWNRE)
-- [Read Claims](https://youtu.be/7vqAHD9DlIA)
-- [Refresh Tokens](https://youtu.be/_F2hB4cWg-M)
-- [API Gateway](https://youtu.be/k4l3Ptd4yjw)
-- [API Gateway JWT](https://youtu.be/P2osfctiHAc)
-- [Swagger for Ocelot](https://youtu.be/lVeqVZgHEBk)
-- [Swagger for Ocelot 2](https://youtu.be/7f5tkDW2vZE)
-- [mcs interaction](https://youtu.be/ZRLf9YoqgJM)
+- [] [Create JWT](https://youtu.be/UwruwHl3BlU)
+- [] [Role-Based Auth](https://youtu.be/6sMPvucWNRE)
+- [] [Read Claims](https://youtu.be/7vqAHD9DlIA)
+- [] [Refresh Tokens](https://youtu.be/_F2hB4cWg-M)
+- [] [API Gateway](https://youtu.be/k4l3Ptd4yjw)
+- [] [API Gateway JWT](https://youtu.be/P2osfctiHAc)
+- [] [Swagger for Ocelot](https://youtu.be/lVeqVZgHEBk)
+- [] [Swagger for Ocelot 2](https://youtu.be/7f5tkDW2vZE)
+- [] [mcs interaction](https://EDRyoutu.be/ZRLf9YoqgJM)
+- [] [Easy interaction](https://youtu.be/b-mT_NO4Kqs)
+- [] [RabbitMQ](https://youtube.com/playlist?list=PLCpsrvs6hImZShRjUbqewZWgjJgU6SIvU)
 
-- [Migrations](https://youtu.be/RB5J9g_bpsI)
-- [psql code style](https://youtu.be/0-j9yZOged0)
-- [Mapping](https://youtu.be/hjiVl4IXglE)
-- [Mapping 2](https://youtu.be/WzECbPsfYOI)
-- [Logging](https://youtu.be/iEr5VaCLeM0)
-- [Exceptions](https://youtu.be/-UDFb9e6LOM)
-- [Multiple Databases](https://youtu.be/mOML5Ry-81E)
-- [Email verify](https://youtu.be/lofj3gUYtaQ)
+- [] [Migrations](https://youtu.be/RB5J9g_bpsI)
+- [] [psql code style](https://youtu.be/0-j9yZOged0)
+- [] [Mapping](https://youtu.be/hjiVl4IXglE)
+- [] [Mapping 2](https://youtu.be/WzECbPsfYOI)
+- [] [Logging](https://youtu.be/iEr5VaCLeM0)
+- [] [Exceptions](https://youtu.be/-UDFb9e6LOM)
+- [] [Optimizate serialize](https://youtu.be/NjXpgko04tU)
 
-- [Optimizate serialize](https://youtu.be/NjXpgko04tU)
+- [] [Multiple Databases](https://youtu.be/mOML5Ry-81E)
+- [] [Email verify](https://youtu.be/lofj3gUYtaQ)
 
 </details>
 
@@ -119,21 +123,6 @@ Plans
 <h3 align=center>
 
 ![forthebadge](https://forthebadge.com/images/badges/made-with-markdown.svg)
-
-</h3>
-
-<h3 align=center>
-
-[![ShieldsIO](https://img.shields.io/badge/Shields_IO-000)](https://shields.io)
-[![MD badges](https://img.shields.io/badge/markdown--badges-3e71b2)](https://ileriayo.github.io/markdown-badges)
-[![Awesome badges](https://img.shields.io/badge/📛_Awesome%20Badges-000)](https://dev.to/envoy_/150-badges-for-github-pnk)
-[![For the badge](https://img.shields.io/badge/FOR_THE_BADGE-26c7d5)](https://forthebadge.com/#)
-[![Naereen badges](https://img.shields.io/badge/naereen_badges-000)](https://naereen.github.io/badges/)
-
-</h3>
-
-<h3 align=center>
-
 ![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)
 
 </h3>
