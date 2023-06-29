@@ -5,14 +5,6 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{84FA5A54-9491-4B59-B607-5A6D7F5C3AB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{70D7259A-303E-47F1-8257-91216F6D3A13}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{EE257DCA-D2E9-4C8C-A7EA-AAF69827FBA2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ads", "Ads", "{93F652CF-C057-453B-AC7B-239FF10DD5AC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersAPI", "UsersAPI\UsersAPI.csproj", "{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,18 +15,9 @@ Global
 		{84FA5A54-9491-4B59-B607-5A6D7F5C3AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84FA5A54-9491-4B59-B607-5A6D7F5C3AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84FA5A54-9491-4B59-B607-5A6D7F5C3AB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EE257DCA-D2E9-4C8C-A7EA-AAF69827FBA2} = {70D7259A-303E-47F1-8257-91216F6D3A13}
-		{93F652CF-C057-453B-AC7B-239FF10DD5AC} = {70D7259A-303E-47F1-8257-91216F6D3A13}
-		{DF7CC9E0-64C3-4031-B6B2-B49E0C3B3445} = {EE257DCA-D2E9-4C8C-A7EA-AAF69827FBA2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F2F1352-179B-4C11-A000-09F20135041F}

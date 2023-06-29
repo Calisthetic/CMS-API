@@ -14,11 +14,11 @@
     },
     {
       "DownstreamPathTemplate": "/WeatherForecast",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "https://6s5btglc-5003.euw.devtunnels.ms",
-          "Port": 443
+          "Host": "localhost",
+          "Port": 5018
         }
       ],
       "UpstreamPathTemplate": "/weather",
