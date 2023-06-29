@@ -4,17 +4,17 @@
 
 ## Architecture overview
 
-![Architecture overview](./ReadmeImages/Arch.png)
+![Architecture overview](./Docs/Arch.png)
 
 ## [ERD](https://dbdiagram.io/d/64970d4102bd1c4a5e01a24c)
 
-![Database diagram](./ReadmeImages/EDR.png)
+![Database diagram](./Docs/EDR.png)
 
 Документы - категории документов, их поиск
 
 Plans
 
-- [ ] CQRS
+- CQRS
 - PUT замена, PATCH изменение
 
 <h3>Info</h3>
@@ -36,11 +36,13 @@ Plans
 - [] [Easy interaction](https://youtu.be/b-mT_NO4Kqs)
 - [] [RabbitMQ](https://youtube.com/playlist?list=PLCpsrvs6hImZShRjUbqewZWgjJgU6SIvU)
 
+- [] [Sqlite for tasks](https://youtu.be/PDiRDNNc2tw)
+- [] [MySQL](https://youtu.be/7rY9vKB_BdA)
 - [] [Migrations](https://youtu.be/RB5J9g_bpsI)
 - [] [psql code style](https://youtu.be/0-j9yZOged0)
 - [] [Mapping](https://youtu.be/hjiVl4IXglE)
 - [] [Mapping 2](https://youtu.be/WzECbPsfYOI)
-- [] [Logging](https://youtu.be/iEr5VaCLeM0)
+- [] [Serilog to db](https://youtu.be/Nx2lWlmL24s)
 - [] [Exceptions](https://youtu.be/-UDFb9e6LOM)
 - [] [Optimizate serialize](https://youtu.be/NjXpgko04tU)
 
