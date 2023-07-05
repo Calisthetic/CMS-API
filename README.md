@@ -24,12 +24,10 @@ Plans
 <details>
 <summary><h3>Learned<h3></summary>
 
-- [] [Create JWT](https://youtu.be/UwruwHl3BlU)
-- [] [Role-Based Auth](https://youtu.be/6sMPvucWNRE)
-- [] [Read Claims](https://youtu.be/7vqAHD9DlIA)
-- [] [Refresh Tokens](https://youtu.be/_F2hB4cWg-M)
+- [x] [Create JWT](https://youtu.be/Y-MjCw6thao)
+- [x] [Refresh JWT](https://youtu.be/2_H0Zj-C8EM)
 - [] [API Gateway](https://youtu.be/k4l3Ptd4yjw)
-- [] [API Gateway JWT](https://youtu.be/P2osfctiHAc)
+- [] [API Gateway JWT](https://youtu.be/P2osfctiHAc)S
 - [] [Swagger for Ocelot](https://youtu.be/lVeqVZgHEBk)
 - [] [Swagger for Ocelot 2](https://youtu.be/7f5tkDW2vZE)
 - [] [mcs interaction](https://EDRyoutu.be/ZRLf9YoqgJM)
@@ -40,11 +38,10 @@ Plans
 - [] [MySQL](https://youtu.be/7rY9vKB_BdA)
 - [] [Migrations](https://youtu.be/RB5J9g_bpsI)
 - [] [psql code style](https://youtu.be/0-j9yZOged0)
-- [] [Mapping](https://youtu.be/hjiVl4IXglE)
-- [] [Mapping 2](https://youtu.be/WzECbPsfYOI)
+- [x] [Mapping](https://youtu.be/vBs6naPD6RE)
 - [] [Serilog to db](https://youtu.be/Nx2lWlmL24s)
-- [] [Exceptions](https://youtu.be/-UDFb9e6LOM)
-- [] [Optimizate serialize](https://youtu.be/NjXpgko04tU)
+- [x] [Exceptions](https://youtu.be/RAcpAc0EYV0)
+- [x] [Optimizate serialize](https://youtu.be/NjXpgko04tU)
 
 - [] [Multiple Databases](https://youtu.be/mOML5Ry-81E)
 - [] [Email verify](https://youtu.be/lofj3gUYtaQ)

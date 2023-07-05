@@ -13,7 +13,7 @@
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
-      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamPathTemplate": "/api/user/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -21,8 +21,20 @@
           "Port": 5018
         }
       ],
-      "UpstreamPathTemplate": "/weather",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamPathTemplate": "/api/user/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/user",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
     }
   ],
   "GlobalConfiguration": {
