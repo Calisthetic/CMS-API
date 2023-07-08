@@ -31,24 +31,18 @@
           ],
           "responses": {
             "200": {
-              "description": "Success",
-              "schema": {
-                "$ref": "#/definitions/ViewModel"
-              }
+              "description": "Success"
             },
             "400": {
-              "description": "Bad Request",
-              "schema": {
-                "$ref": "#/definitions/ViewModel"
-              }
+              "description": "Bad Request"
             },
-            "409": {
-              "description": "Conflict",
-              "schema": {
-                "$ref": "#/definitions/ViewModel"
-              }
+            "404": {
+              "description": "Not Found"
+            },
+            "500": {
+              "description": "Internal server error"
             }
-          }
+           }
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "Routes": [
-    {
+    { // example
       "DownstreamPathTemplate": "/todos/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -12,8 +12,8 @@
       "UpstreamPathTemplate": "/todos/{id}",
       "UpstreamHttpMethod": [ "Get" ]
     },
-    {
-      "DownstreamPathTemplate": "/api/user/{everything}",
+    { // users
+      "DownstreamPathTemplate": "/api/users/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -21,11 +21,11 @@
           "Port": 5018
         }
       ],
-      "UpstreamPathTemplate": "/api/user/{everything}",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+      "UpstreamPathTemplate": "/api/users/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "PATCH" ]
     },
     {
-      "DownstreamPathTemplate": "/api/user",
+      "DownstreamPathTemplate": "/api/users",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -33,8 +33,104 @@
           "Port": 5018
         }
       ],
-      "UpstreamPathTemplate": "/api/user",
-      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ]
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
+    },
+    { // time_off
+      "DownstreamPathTemplate": "/api/time_off/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/time_off/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "PATCH" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/time_off",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/time_off",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
+    },
+    { // companies
+      "DownstreamPathTemplate": "/api/companies/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/companies/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "PATCH" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/companies",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/companies",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
+    },
+    { // divisions
+      "DownstreamPathTemplate": "/api/divisions/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/divisions/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "PATCH" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/divisions",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/divisions",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
+    },
+    { // permissions
+      "DownstreamPathTemplate": "/api/permissions/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/permissions/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "PATCH" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/permissions",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5018
+        }
+      ],
+      "UpstreamPathTemplate": "/api/permissions",
+      "UpstreamHttpMethod": [ "POST", "GET" ]
     }
   ],
   "GlobalConfiguration": {
